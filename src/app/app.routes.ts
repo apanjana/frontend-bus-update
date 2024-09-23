@@ -23,7 +23,6 @@ import { LoginComponent } from './login/login.component';
 // ];
 
 export const routes: Routes = [
-    // { path: '', component:LoginComponent },
     { path: '', component:LoginComponent },
     { path: 'admin', component:AdminMainPageComponent },
     { path: 'admin/bus', component:AdminBusComponent },
